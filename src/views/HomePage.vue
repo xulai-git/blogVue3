@@ -8,6 +8,6 @@ import Carousel from '@/components/Carousel.vue';
 
 </script>
 
-<style>
+<style scoped>
 
 </style>

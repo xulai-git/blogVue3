@@ -59,7 +59,7 @@ const showAllTodos = () => {
 onMounted(()=>useTodo.loadTodosToLocalStorage())
 </script>
 
-<style>
+<style scoped>
 .todo{
   width: 500px;
   margin-left: 600px;

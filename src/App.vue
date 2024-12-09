@@ -3,8 +3,11 @@
     <h1>欢迎来到我的博客！</h1>
   </div>
   <div class="nav">
-    <li><RouterLink to="/">首页</RouterLink></li>
-    <li><RouterLink to="/todo">功能页面</RouterLink></li>
+    <li><RouterLink to="/" active-class="active">首页</RouterLink></li>
+    <li><RouterLink to="/todo" active-class="active">Todo</RouterLink></li>
+    <li><RouterLink to="/blog" active-class="active">Blog</RouterLink></li>
+    <li><RouterLink to="/picture" active-class="active">Picture</RouterLink></li>
+    <li><RouterLink to="/weather" active-class="active">Wearher</RouterLink></li>
   </div>
   <RouterView></RouterView>
 </template>
@@ -35,5 +38,10 @@ a{
   text-decoration-line: none;
   color: black;
 }
-
+a:hover{
+  color: coral;
+}
+.nav .active{
+  color: coral;
+}
 </style>

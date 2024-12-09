@@ -8,6 +8,6 @@
 import Todo from '../components/Todo.vue';
 </script>
 
-<style>
+<style scoped>
 
 </style>

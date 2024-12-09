@@ -35,7 +35,7 @@ onUnmounted(()=>useImage.stopCarousel())//卸载组件
 
 </script>
 
-<style>
+<style scoped>
 .images{
   width: 500px;
   height: 350px;
