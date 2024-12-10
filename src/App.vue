@@ -8,6 +8,7 @@
     <li><RouterLink to="/blog" active-class="active">Blog</RouterLink></li>
     <li><RouterLink to="/picture" active-class="active">Picture</RouterLink></li>
     <li><RouterLink to="/weather" active-class="active">Wearher</RouterLink></li>
+    <li><RouterLink to="/shop" active-class="active">Shops</RouterLink></li>
   </div>
   <RouterView></RouterView>
 </template>

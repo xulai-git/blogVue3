@@ -12,6 +12,11 @@
 </script>
 
 <style  scoped>
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .text{
   width: 100px;
   height: 100px;

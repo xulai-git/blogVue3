@@ -9,7 +9,11 @@ import PictureDetail from "@/components/PictureDetail.vue"
 import Picture from "@/components/Picture.vue"
 import Weather from "@/components/Weather.vue"
 import WeatherPage from "@/views/WeatherPage.vue"
+import shopPage from "@/views/shopPage.vue"
+import shops from "@/components/shops.vue"
+import shopdetail from "@/components/shopdetail.vue"
 import { createRouter, createWebHashHistory } from "vue-router"
+import Shops from "@/components/shops.vue"
 
 const routes = [
   {
@@ -68,6 +72,23 @@ const routes = [
         name: 'weatherDisplay',
         component:Weather,
       },
+    ]
+  },
+  {
+    path: '/shop',
+    name: 'shop',
+    component: shopPage,
+    children: [
+      {
+        path: '',
+        name: 'shops',
+        component:shops
+      },
+      {
+        path: 'shopdetail/:id',
+        name: 'shopdetail',
+        component:shopdetail
+      }
     ]
   }
   
